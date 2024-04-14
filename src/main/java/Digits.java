@@ -9,7 +9,7 @@ public class Digits
 	{ /* to be implemented in part (a) */ 
 	    String a = num + "";
 		for(int i = 0; i < a.length()-1; i++)
-			digitList.add(a.substring(i, i+1));
+			digitList.add(Integer.parseInt(a.substring(i, i+1)));
 	}
 
 	public boolean isStrictlyIncreasing()
