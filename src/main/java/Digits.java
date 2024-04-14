@@ -17,7 +17,8 @@ public class Digits
 		for(int i = 0; i < digitList.size()-1;i++)
 			if(Integer.parseint(digitList.get(i)) < Integer.parseint(digitList.get(i+1)))
 			   return true;
-		return false;
+				else
+					return false;
 	}
 	
 	public String toString()
